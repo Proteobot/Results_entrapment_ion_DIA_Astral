@@ -20,7 +20,7 @@
     "reported_fdr_parsed_from_input": 0.01,
     "combined_FDP": 0.026,
     "lower_bound_FDP": 0.012,
-    "paired_FDP": 0.0058,
+    "paired_FDP": 0.058,
     "category_combined": "invalid",
     "category_paired": "invalid"
   },
@@ -30,7 +30,7 @@
   "combined_FDP": 0.026,
   "category_combined": "invalid",
   "category_paired": "invalid",
-  "paired_FDP": 0.0058,
+  "paired_FDP": 0.058,
   "comments": "",
   "proteobench_version": "0.2.10",
   "fixed_mods": "Carbamidomethyl (C)",
