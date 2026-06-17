@@ -4,7 +4,6 @@
   "software_version": "1.5.1",
   "search_engine": "AlphaDIA",
   "search_engine_version": "1.5.1",
-  "ident_fdr_psm": "0.01",
   "ident_fdr_peptide": "0.01",
   "ident_fdr_protein": "0.01",
   "enable_match_between_runs": true,
@@ -18,6 +17,7 @@
   "intermediate_hash": "a3c4d5e6f7b8a9c0d1e2b3a4c5d6e7f8a9b0c1d2",
   "results": {
     "nr_id_features": 24561,
+    "reported_fdr_parsed_from_input": 0.01,
     "combined_FDP": 0.0183,
     "lower_bound_FDP": 0.0065,
     "paired_FDP": 0.0147,
@@ -25,6 +25,7 @@
     "category_paired": "inconclusive"
   },
   "nr_id_features": 24561,
+  "reported_fdr_parsed_from_input": 0.01,
   "lower_bound_FDP": 0.0065,
   "combined_FDP": 0.0183,
   "category_combined": "inconclusive",
