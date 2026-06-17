@@ -4,6 +4,7 @@
   "software_version": "1.5.1",
   "search_engine": "AlphaDIA",
   "search_engine_version": "1.5.1",
+  "ident_fdr_psm": "0.01",
   "ident_fdr_peptide": "0.01",
   "ident_fdr_protein": "0.01",
   "enable_match_between_runs": true,
@@ -20,17 +21,28 @@
     "reported_fdr_parsed_from_input": 0.01,
     "combined_FDP": 0.0183,
     "lower_bound_FDP": 0.0065,
-    "paired_FDP": 0.009,
+    "paired_FDP": 0.0147,
     "category_combined": "inconclusive",
-    "category_paired": "valid"
+    "category_paired": "inconclusive",
+    "fdp_curve": {
+      "0.001": {"lower_bound_FDP": 0.004,  "combined_FDP": 0.008,  "paired_FDP": 0.007,  "nr_id_features": 14700},
+      "0.002": {"lower_bound_FDP": 0.0045, "combined_FDP": 0.009,  "paired_FDP": 0.008,  "nr_id_features": 17000},
+      "0.003": {"lower_bound_FDP": 0.005,  "combined_FDP": 0.01,   "paired_FDP": 0.009,  "nr_id_features": 19000},
+      "0.004": {"lower_bound_FDP": 0.0052, "combined_FDP": 0.0104, "paired_FDP": 0.0095, "nr_id_features": 20500},
+      "0.005": {"lower_bound_FDP": 0.0055, "combined_FDP": 0.011,  "paired_FDP": 0.01,   "nr_id_features": 21600},
+      "0.006": {"lower_bound_FDP": 0.006,  "combined_FDP": 0.012,  "paired_FDP": 0.011,  "nr_id_features": 22400},
+      "0.007": {"lower_bound_FDP": 0.0062, "combined_FDP": 0.0124, "paired_FDP": 0.012,  "nr_id_features": 23000},
+      "0.008": {"lower_bound_FDP": 0.0063, "combined_FDP": 0.0126, "paired_FDP": 0.013,  "nr_id_features": 23500},
+      "0.009": {"lower_bound_FDP": 0.0064, "combined_FDP": 0.0128, "paired_FDP": 0.014,  "nr_id_features": 24100},
+      "0.01":  {"lower_bound_FDP": 0.0065, "combined_FDP": 0.0183, "paired_FDP": 0.0147, "nr_id_features": 24561}
+    }
   },
   "nr_id_features": 24561,
-  "reported_fdr_parsed_from_input": 0.01,
   "lower_bound_FDP": 0.0065,
   "combined_FDP": 0.0183,
   "category_combined": "inconclusive",
-  "category_paired": "valid",
-  "paired_FDP": 0.009,
+  "category_paired": "inconclusive",
+  "paired_FDP": 0.0147,
   "comments": "",
   "proteobench_version": "0.2.10",
   "fixed_mods": "Carbamidomethyl (C)",
@@ -47,5 +59,18 @@
   "abundance_normalization_ions": "None",
   "predictors_library": "ProteoBench_entrapment_spectral_library",
   "scan_window": "0",
-  "submission_comments": "Mock AlphaDIA submission for entrapment benchmark visualisation testing. This point represents an inconclusive result: FDP lower bound is within the declared FDR but the upper bound exceeds it.\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/a3c4d5e6f7b8a9c0d1e2b3a4c5d6e7f8a9b0c1d2/"
+  "submission_comments": "Mock AlphaDIA submission for entrapment benchmark visualisation testing. This point represents an inconclusive result: FDP lower bound is within the declared FDR but the upper bound exceeds it.\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/a3c4d5e6f7b8a9c0d1e2b3a4c5d6e7f8a9b0c1d2/",
+  "reported_fdr_parsed_from_input": 0.01,
+  "fdp_curve": {
+    "0.001": {"lower_bound_FDP": 0.004,  "combined_FDP": 0.008,  "paired_FDP": 0.007,  "nr_id_features": 14700},
+    "0.002": {"lower_bound_FDP": 0.0045, "combined_FDP": 0.009,  "paired_FDP": 0.008,  "nr_id_features": 17000},
+    "0.003": {"lower_bound_FDP": 0.005,  "combined_FDP": 0.01,   "paired_FDP": 0.009,  "nr_id_features": 19000},
+    "0.004": {"lower_bound_FDP": 0.0052, "combined_FDP": 0.0104, "paired_FDP": 0.0095, "nr_id_features": 20500},
+    "0.005": {"lower_bound_FDP": 0.0055, "combined_FDP": 0.011,  "paired_FDP": 0.01,   "nr_id_features": 21600},
+    "0.006": {"lower_bound_FDP": 0.006,  "combined_FDP": 0.012,  "paired_FDP": 0.011,  "nr_id_features": 22400},
+    "0.007": {"lower_bound_FDP": 0.0062, "combined_FDP": 0.0124, "paired_FDP": 0.012,  "nr_id_features": 23000},
+    "0.008": {"lower_bound_FDP": 0.0063, "combined_FDP": 0.0126, "paired_FDP": 0.013,  "nr_id_features": 23500},
+    "0.009": {"lower_bound_FDP": 0.0064, "combined_FDP": 0.0128, "paired_FDP": 0.014,  "nr_id_features": 24100},
+    "0.01":  {"lower_bound_FDP": 0.0065, "combined_FDP": 0.0183, "paired_FDP": 0.0147, "nr_id_features": 24561}
+  }
 }

@@ -4,6 +4,7 @@
   "software_version": "19.0",
   "search_engine": "Spectronaut",
   "search_engine_version": "19.0",
+  "ident_fdr_psm": "0.01",
   "ident_fdr_peptide": "0.01",
   "ident_fdr_protein": "0.01",
   "enable_match_between_runs": false,
@@ -17,19 +18,30 @@
   "intermediate_hash": "f2b3c4d5e6a7f8b9c0d1e2a3b4c5d6e7f8a9b0c1",
   "results": {
     "nr_id_features": 19834,
-    "reported_fdr_parsed_from_input": 0.05,
+    "reported_fdr_parsed_from_input": 0.01,
     "combined_FDP": 0.0287,
     "lower_bound_FDP": 0.0142,
     "paired_FDP": 0.0268,
-    "category_combined": "valid",
-    "category_paired": "valid"
+    "category_combined": "invalid",
+    "category_paired": "invalid",
+    "fdp_curve": {
+      "0.001": {"lower_bound_FDP": 0.011,  "combined_FDP": 0.022,  "paired_FDP": 0.02,   "nr_id_features": 11900},
+      "0.002": {"lower_bound_FDP": 0.012,  "combined_FDP": 0.024,  "paired_FDP": 0.022,  "nr_id_features": 13800},
+      "0.003": {"lower_bound_FDP": 0.0125, "combined_FDP": 0.025,  "paired_FDP": 0.023,  "nr_id_features": 15100},
+      "0.004": {"lower_bound_FDP": 0.013,  "combined_FDP": 0.026,  "paired_FDP": 0.024,  "nr_id_features": 16300},
+      "0.005": {"lower_bound_FDP": 0.0135, "combined_FDP": 0.027,  "paired_FDP": 0.025,  "nr_id_features": 17200},
+      "0.006": {"lower_bound_FDP": 0.0135, "combined_FDP": 0.027,  "paired_FDP": 0.025,  "nr_id_features": 17900},
+      "0.007": {"lower_bound_FDP": 0.014,  "combined_FDP": 0.028,  "paired_FDP": 0.026,  "nr_id_features": 18500},
+      "0.008": {"lower_bound_FDP": 0.014,  "combined_FDP": 0.028,  "paired_FDP": 0.026,  "nr_id_features": 19000},
+      "0.009": {"lower_bound_FDP": 0.014,  "combined_FDP": 0.0285, "paired_FDP": 0.027,  "nr_id_features": 19400},
+      "0.01":  {"lower_bound_FDP": 0.0142, "combined_FDP": 0.0287, "paired_FDP": 0.0268, "nr_id_features": 19834}
+    }
   },
   "nr_id_features": 19834,
-  "reported_fdr_parsed_from_input": 0.05,
   "lower_bound_FDP": 0.0142,
   "combined_FDP": 0.0287,
-  "category_combined": "valid",
-  "category_paired": "valid",
+  "category_combined": "invalid",
+  "category_paired": "invalid",
   "paired_FDP": 0.0268,
   "comments": "",
   "proteobench_version": "0.2.10",
@@ -47,5 +59,18 @@
   "abundance_normalization_ions": "None",
   "predictors_library": "ProteoBench_entrapment_spectral_library",
   "scan_window": "10",
-  "submission_comments": "Mock Spectronaut submission for entrapment benchmark visualisation testing. This point represents a workflow with FDP exceeding the declared FDR threshold (invalid).\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/f2b3c4d5e6a7f8b9c0d1e2a3b4c5d6e7f8a9b0c1/"
+  "submission_comments": "Mock Spectronaut submission for entrapment benchmark visualisation testing. This point represents a workflow with FDP exceeding the declared FDR threshold (invalid).\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/f2b3c4d5e6a7f8b9c0d1e2a3b4c5d6e7f8a9b0c1/",
+  "reported_fdr_parsed_from_input": 0.01,
+  "fdp_curve": {
+    "0.001": {"lower_bound_FDP": 0.011,  "combined_FDP": 0.022,  "paired_FDP": 0.02,   "nr_id_features": 11900},
+    "0.002": {"lower_bound_FDP": 0.012,  "combined_FDP": 0.024,  "paired_FDP": 0.022,  "nr_id_features": 13800},
+    "0.003": {"lower_bound_FDP": 0.0125, "combined_FDP": 0.025,  "paired_FDP": 0.023,  "nr_id_features": 15100},
+    "0.004": {"lower_bound_FDP": 0.013,  "combined_FDP": 0.026,  "paired_FDP": 0.024,  "nr_id_features": 16300},
+    "0.005": {"lower_bound_FDP": 0.0135, "combined_FDP": 0.027,  "paired_FDP": 0.025,  "nr_id_features": 17200},
+    "0.006": {"lower_bound_FDP": 0.0135, "combined_FDP": 0.027,  "paired_FDP": 0.025,  "nr_id_features": 17900},
+    "0.007": {"lower_bound_FDP": 0.014,  "combined_FDP": 0.028,  "paired_FDP": 0.026,  "nr_id_features": 18500},
+    "0.008": {"lower_bound_FDP": 0.014,  "combined_FDP": 0.028,  "paired_FDP": 0.026,  "nr_id_features": 19000},
+    "0.009": {"lower_bound_FDP": 0.014,  "combined_FDP": 0.0285, "paired_FDP": 0.027,  "nr_id_features": 19400},
+    "0.01":  {"lower_bound_FDP": 0.0142, "combined_FDP": 0.0287, "paired_FDP": 0.0268, "nr_id_features": 19834}
+  }
 }
