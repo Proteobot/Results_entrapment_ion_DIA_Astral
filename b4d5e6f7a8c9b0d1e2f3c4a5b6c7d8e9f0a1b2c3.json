@@ -18,7 +18,7 @@
   "intermediate_hash": "b4d5e6f7a8c9b0d1e2f3c4a5b6c7d8e9f0a1b2c3",
   "results": {
     "nr_id_features": 42013,
-    "reported_fdr_parsed_from_input": 0.05,
+    "reported_fdr_parsed_from_input": 0.01,
     "combined_FDP": 0.0231,
     "lower_bound_FDP": 0.0089,
     "paired_FDP": 0.0198,
@@ -60,7 +60,7 @@
   "predictors_library": "ProteoBench_entrapment_spectral_library",
   "scan_window": "5",
   "submission_comments": "Mock MSAID submission for entrapment benchmark visualisation testing. This point uses a 5% FDR threshold: the workflow is valid at 5% FDR (FDP 0.0198 < 0.05) but stored as inconclusive at the hardcoded 1% reference.\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/b4d5e6f7a8c9b0d1e2f3c4a5b6c7d8e9f0a1b2c3/",
-  "reported_fdr_parsed_from_input": 0.05,
+  "reported_fdr_parsed_from_input": 0.01,
   "fdp_curve": {
     "0.005": {"lower_bound_FDP": 0.006,  "combined_FDP": 0.012,  "paired_FDP": 0.011,  "nr_id_features": 25200},
     "0.01":  {"lower_bound_FDP": 0.0065, "combined_FDP": 0.013,  "paired_FDP": 0.012,  "nr_id_features": 28500},
