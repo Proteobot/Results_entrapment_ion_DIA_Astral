@@ -1,0 +1,267 @@
+{
+  "old_new": "new",
+  "id": "DIA-NN_20260717_123332",
+  "software_name": "DIA-NN",
+  "software_version": "2.3.1 Academia ",
+  "search_engine": "DIA-NN",
+  "search_engine_version": "2.3.1 Academia ",
+  "ident_fdr_psm": "0.1",
+  "ident_fdr_peptide": "nan",
+  "ident_fdr_protein": "nan",
+  "enable_match_between_runs": true,
+  "precursor_mass_tolerance": "[-2.2 ppm, 2.2 ppm]",
+  "fragment_mass_tolerance": "[-7 ppm, 7 ppm]",
+  "enzyme": "No digestion",
+  "allowed_miscleavages": "1",
+  "min_peptide_length": "7",
+  "max_peptide_length": "30",
+  "is_temporary": false,
+  "intermediate_hash": "f4b31918d5e796bdd21b77733c8e412f4043822a",
+  "results": {
+    "nr_id_features": 124441,
+    "reported_fdr_parsed_from_input": 0.09997384250164032,
+    "combined_FDP": 0.0859684509124806,
+    "lower_bound_FDP": 0.0429842254562403,
+    "paired_FDP": 0.07823787979845871,
+    "category_combined": "valid",
+    "category_paired": "valid",
+    "fdp_curve": {
+      "0.001": {
+        "lower_bound_FDP": 0.00043193327375633006,
+        "combined_FDP": 0.0008638665475126601,
+        "paired_FDP": 0.0008340780458742926,
+        "nr_id_features": 67140,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.00999738": {
+        "lower_bound_FDP": 0.0041853065843841086,
+        "combined_FDP": 0.008370613168768217,
+        "paired_FDP": 0.007911510660787307,
+        "nr_id_features": 93661,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.01": {
+        "lower_bound_FDP": 0.0041853065843841086,
+        "combined_FDP": 0.008370613168768217,
+        "paired_FDP": 0.007911510660787307,
+        "nr_id_features": 93661,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.01999477": {
+        "lower_bound_FDP": 0.008621800271537158,
+        "combined_FDP": 0.017243600543074316,
+        "paired_FDP": 0.01590573498369786,
+        "nr_id_features": 100907,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.02999215": {
+        "lower_bound_FDP": 0.012775380422439246,
+        "combined_FDP": 0.025550760844878492,
+        "paired_FDP": 0.02337421455068514,
+        "nr_id_features": 105672,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.03998954": {
+        "lower_bound_FDP": 0.017326529308125577,
+        "combined_FDP": 0.034653058616251155,
+        "paired_FDP": 0.03163141414786887,
+        "nr_id_features": 109543,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.04998692": {
+        "lower_bound_FDP": 0.0217911877394636,
+        "combined_FDP": 0.0435823754789272,
+        "paired_FDP": 0.03970661274301121,
+        "nr_id_features": 112752,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.05": {
+        "lower_bound_FDP": 0.021816827336662025,
+        "combined_FDP": 0.04363365467332405,
+        "paired_FDP": 0.039758063800917016,
+        "nr_id_features": 112757,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.05998431": {
+        "lower_bound_FDP": 0.026342653470828432,
+        "combined_FDP": 0.052685306941656865,
+        "paired_FDP": 0.04801370337047547,
+        "nr_id_features": 115592,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.06998169": {
+        "lower_bound_FDP": 0.030884567869895584,
+        "combined_FDP": 0.06176913573979117,
+        "paired_FDP": 0.05619299047232235,
+        "nr_id_features": 118182,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.07997907": {
+        "lower_bound_FDP": 0.03577226345083488,
+        "combined_FDP": 0.07154452690166976,
+        "paired_FDP": 0.06500960773919957,
+        "nr_id_features": 120736,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.08997646": {
+        "lower_bound_FDP": 0.04016890957316974,
+        "combined_FDP": 0.08033781914633947,
+        "paired_FDP": 0.07306396758498365,
+        "nr_id_features": 122906,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      },
+      "0.09997384": {
+        "lower_bound_FDP": 0.0429842254562403,
+        "combined_FDP": 0.0859684509124806,
+        "paired_FDP": 0.07823787979845871,
+        "nr_id_features": 124441,
+        "category_combined": "valid",
+        "category_paired": "valid"
+      }
+    }
+  },
+  "nr_id_features": 124441,
+  "lower_bound_FDP": 0.0429842254562403,
+  "combined_FDP": 0.0859684509124806,
+  "category_combined": "valid",
+  "category_paired": "valid",
+  "paired_FDP": 0.07823787979845871,
+  "reported_fdr_parsed_from_input": 0.09997384250164032,
+  "fdp_curve": {
+    "0.001": {
+      "lower_bound_FDP": 0.00043193327375633006,
+      "combined_FDP": 0.0008638665475126601,
+      "paired_FDP": 0.0008340780458742926,
+      "nr_id_features": 67140,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.00999738": {
+      "lower_bound_FDP": 0.0041853065843841086,
+      "combined_FDP": 0.008370613168768217,
+      "paired_FDP": 0.007911510660787307,
+      "nr_id_features": 93661,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.01": {
+      "lower_bound_FDP": 0.0041853065843841086,
+      "combined_FDP": 0.008370613168768217,
+      "paired_FDP": 0.007911510660787307,
+      "nr_id_features": 93661,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.01999477": {
+      "lower_bound_FDP": 0.008621800271537158,
+      "combined_FDP": 0.017243600543074316,
+      "paired_FDP": 0.01590573498369786,
+      "nr_id_features": 100907,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.02999215": {
+      "lower_bound_FDP": 0.012775380422439246,
+      "combined_FDP": 0.025550760844878492,
+      "paired_FDP": 0.02337421455068514,
+      "nr_id_features": 105672,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.03998954": {
+      "lower_bound_FDP": 0.017326529308125577,
+      "combined_FDP": 0.034653058616251155,
+      "paired_FDP": 0.03163141414786887,
+      "nr_id_features": 109543,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.04998692": {
+      "lower_bound_FDP": 0.0217911877394636,
+      "combined_FDP": 0.0435823754789272,
+      "paired_FDP": 0.03970661274301121,
+      "nr_id_features": 112752,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.05": {
+      "lower_bound_FDP": 0.021816827336662025,
+      "combined_FDP": 0.04363365467332405,
+      "paired_FDP": 0.039758063800917016,
+      "nr_id_features": 112757,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.05998431": {
+      "lower_bound_FDP": 0.026342653470828432,
+      "combined_FDP": 0.052685306941656865,
+      "paired_FDP": 0.04801370337047547,
+      "nr_id_features": 115592,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.06998169": {
+      "lower_bound_FDP": 0.030884567869895584,
+      "combined_FDP": 0.06176913573979117,
+      "paired_FDP": 0.05619299047232235,
+      "nr_id_features": 118182,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.07997907": {
+      "lower_bound_FDP": 0.03577226345083488,
+      "combined_FDP": 0.07154452690166976,
+      "paired_FDP": 0.06500960773919957,
+      "nr_id_features": 120736,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.08997646": {
+      "lower_bound_FDP": 0.04016890957316974,
+      "combined_FDP": 0.08033781914633947,
+      "paired_FDP": 0.07306396758498365,
+      "nr_id_features": 122906,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    },
+    "0.09997384": {
+      "lower_bound_FDP": 0.0429842254562403,
+      "combined_FDP": 0.0859684509124806,
+      "paired_FDP": 0.07823787979845871,
+      "nr_id_features": 124441,
+      "category_combined": "valid",
+      "category_paired": "valid"
+    }
+  },
+  "comments": "",
+  "proteobench_version": "0.17.2",
+  "fixed_mods": "C[Carbamidomethyl]",
+  "variable_mods": "nan",
+  "max_mods": "nan",
+  "min_precursor_charge": "1",
+  "max_precursor_charge": "4",
+  "min_precursor_mz": "300",
+  "max_precursor_mz": "1800",
+  "min_fragment_mz": "200",
+  "max_fragment_mz": "1800",
+  "quantification_method": "QuantUMS high-precision",
+  "protein_inference": "Genes",
+  "abundance_normalization_ions": "RT-dependent normalization",
+  "predictors_library": "User defined speclib",
+  "scan_window": "6",
+  "postprocessing_performed": false,
+  "postprocessing_description": "nan",
+  "submission_comments": "\n\n ### No parameter changes detected. \n\n\n### Automated submission checks\n0 item(s) to review and 1 note(s) were flagged for reviewer attention (these do not block submission).\n- Could not re-standardize the results for validation (ValueError: Columns {'Modified.Sequence', 'Run', 'Lib.Q.Value', 'Precursor.Charge', 'Protein.Ids', 'Stripped.Sequence', 'Protein.Group'} not found in input dataframe. Please check input file and selected software tool.); protein/charge/length checks were skipped.\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/f4b31918d5e796bdd21b77733c8e412f4043822a/"
+}
